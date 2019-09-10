@@ -1,6 +1,6 @@
 {
   "name": "@oliverfernandez/marfeel-core",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Marfeel core test",
   "main": "index.js",
   "scripts": {
