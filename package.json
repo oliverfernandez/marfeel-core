@@ -1,0 +1,29 @@
+{
+  "name": "@oliverfernandez/marfeel-core",
+  "version": "1.0.6",
+  "description": "Marfeel core test",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack-cli index.js",
+    "marfeel-run": "node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliverfernandez/marfeel-core.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "oliverfernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverfernandez/marfeel-core/issues"
+  },
+  "homepage": "https://github.com/oliverfernandez/marfeel-core#readme",
+  "dependencies": {
+    "@oliverfernandez/marfeel-provider": "^1.0.2",
+    "lorem-ipsum": "^2.0.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
