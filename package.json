@@ -1,15 +1,11 @@
 {
-  "name": "@oliverfernandez/marfeel-core",
-  "version": "1.0.9",
+  "name": "@oliverfernandez/marfeel-core-release",
+  "version": "1.0.10",
   "description": "Marfeel core test",
   "main": "index.js",
   "scripts": {
     "compile": "webpack-cli index.js",
     "marfeel-run": "node ./dist/main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/oliverfernandez/marfeel-core.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
